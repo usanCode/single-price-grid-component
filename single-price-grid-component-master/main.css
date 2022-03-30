@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+
+html{
+    font-size: 16px;
+    font-family: Karla;
+}
+
+body{
+    background-color:white ;
+    width: 100%;
+    margin: auto;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:35%  35%;
+    grid-template-rows:10% 7% 19% 50% ;
+    margin: 2rem;
+  
+}
+.title{
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+    padding-left: 1rem;
+
+}
+h1{
+    color:hsl(179, 62%, 43%)  ;
+}
+.secondHeading{
+    grid-column-start: 1;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+    grid-row-end:3 ;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+
+}
+h2{
+    color:hsl(71, 73%, 54%) ;
+}
+
+.firstContainer{
+    grid-column:span 2 ;
+    grid-row-start: 3;
+    grid-row-end:4 ;
+    padding-left: 1rem;
+
+}
+.intro{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-family: Karla ;
+
+}
+.secondContainer{
+    background-color: hsl(179, 62%, 43%) ;
+    grid-column-start: 1;
+    grid-column-end:2 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+    padding: 2rem; 
+    color: white; 
+    
+}
+
+button{
+    background-color:hsl(71, 73%, 54%) ;
+    color:white;
+    width:12rem;
+    height:3rem;
+    border-radius:0.3rem;
+}
+.thirdContainer{
+    background-color: hsl(179, 46%, 56%);
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+    padding:2rem;
+    color: white; 
+    
+    
+}
+h4{
+    font-size:17px;
+    font-weight:700 ;
+}
+.dollar{
+    font-size: 30px;
+    font-weight:700 ;
+    font-family: Karla ;
+}
+.month{
+    color:hsl(204, 5%, 82%) ;
+    font-family: Karla ;
+}
+
+@media screen and (max-width:660px){
+    html{
+        font-size: 16px;
+        font-family: Karla;
+    }
+    
+    body{
+        background-color:white ;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns:90%;
+        grid-template-rows:7% 7% 15% 35% 30% ;
+        margin: 2rem;
+      
+    }
+    .title{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 1;
+        grid-row-end:2 ;
+        padding-left: 1rem;
+    
+    }
+    h1{
+        color:hsl(179, 62%, 43%)  ;
+        font-family: Karla;
+        font-weight:700 ;
+        font-size: 20px;
+
+    }
+    .secondHeading{
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 2;
+        grid-row-end:3 ;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    
+    }
+    h2{
+        color:hsl(71, 73%, 54%) ;
+        font-family: Karla;
+        font-weight: 700;
+        font-size:16px;
+    }
+    
+    .firstContainer{
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 3;
+        grid-row-end:4 ;
+        padding-left: 1rem;
+    
+    }
+    .intro{
+        color: hsl(218, 22%, 67%);
+        font-weight: 400;
+        font-family: Karla ;
+        font-size: 16px;
+        padding-right: 0.5rem;
+    
+    }
+    .secondContainer{
+        background-color: hsl(179, 62%, 43%) ;
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 4;
+        grid-row-end:5 ;
+        padding: 2rem; 
+        color: white; 
+        
+    }
+    .thirdContainer{
+        background-color: hsl(179, 46%, 56%);
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 5;
+        grid-row-end:6 ;
+        padding:2rem;
+        color: white; 
+        
+        
+    }
+    
+}
+
+
+@media screen  and (max-width:500px){
+    html{
+        font-size: 16px;
+        font-family: Karla;
+    }
+    
+    body{
+        background-color:white ;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns:95%;
+        grid-template-rows:7% 7% 15% 35% 30% ;
+        margin: 2rem;
+      
+    }
+    .title{
+        grid-column-start: 1;
+        grid-column-end:2;
+        grid-row-start: 1;
+        grid-row-end:2 ;
+        padding-left: 1rem;
+    
+    }
+    h1{
+        color:hsl(179, 62%, 43%)  ;
+        font-family: Karla;
+        font-weight:700 ;
+        font-size: 20px;
+
+    }
+    .secondHeading{
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 2;
+        grid-row-end:3 ;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    
+    }
+    h2{
+        color:hsl(71, 73%, 54%) ;
+        font-family: Karla;
+        font-weight: 700;
+        font-size:16px;
+    }
+    
+    .firstContainer{
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 3;
+        grid-row-end:4 ;
+        padding-left: 1rem;
+    
+    }
+    .intro{
+        color: hsl(218, 22%, 67%);
+        font-weight: 400;
+        font-family: Karla ;
+        font-size: 16px;
+        padding-right: 0.5rem;
+    
+    }
+    .secondContainer{
+        background-color: hsl(179, 62%, 43%) ;
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 4;
+        grid-row-end:5 ;
+        padding: 2rem; 
+        color: white; 
+        
+    }
+    .thirdContainer{
+        background-color: hsl(179, 46%, 56%);
+        grid-column-start: 1;
+        grid-column-end:2 ;
+        grid-row-start: 5;
+        grid-row-end:6 ;
+        padding:2rem;
+        color: white; 
+        
+        
+    }
+    
+button{
+    background-color:hsl(71, 73%, 54%) ;
+    color:white;
+    width:6rem;
+    height:3rem;
+    border-radius:0.3rem;
+}
+    
+}
