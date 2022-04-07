@@ -17,7 +17,10 @@ body{
     display: grid;
     grid-template-columns:35%  35%;
     grid-template-rows:10% 7% 19% 50% ;
-    margin: 2rem;
+    margin:5%;
+    justify-content:center;
+    
+    
   
 }
 .title{
@@ -74,18 +77,35 @@ button{
     width:12rem;
     height:3rem;
     border-radius:0.3rem;
+    font-family:Karla ;
 }
+
+.secondContainerPara{
+    color: hsl(204, 43%, 93%);
+    font-family:Karla ;
+}
+
+
 .thirdContainer{
     background-color: hsl(179, 46%, 56%);
     grid-column-start: 2;
     grid-column-end:3 ;
     grid-row-start: 4;
     grid-row-end:5 ;
-    padding:2rem;
+    padding-top: 2rem;
+    padding-left:2rem;
+    padding-right:4rem;
+    padding-bottom:1rem;
     color: white; 
     
     
 }
+
+.thirdContainerText{
+
+    line-height: 25px;
+}
+
 h4{
     font-size:17px;
     font-weight:700 ;
@@ -99,6 +119,52 @@ h4{
     color:hsl(204, 5%, 82%) ;
     font-family: Karla ;
 }
+
+@media screen and (max-width:912px) {
+
+    
+.grid-container{
+    display: grid;
+    grid-template-columns:35%  35%;
+    grid-template-rows:10% 7% 19% 45% ;
+    margin-top:7%;
+    margin-bottom:5%;
+    margin-right:2%;
+    margin-left:2%;
+    justify-content:center;
+    
+    
+  
+}
+
+
+.thirdContainer{
+    background-color: hsl(179, 46%, 56%);
+    grid-column-start: 2;
+    grid-column-end:3 ;
+    grid-row-start: 4;
+    grid-row-end:5 ;
+    padding-top: 2rem;
+    padding-left:2rem;
+    padding-right:3rem;
+    padding-bottom:3rem;
+    color: white; 
+    
+    
+}
+
+.thirdContainerText{
+
+    line-height: 25px;
+}
+
+
+    
+}
+
+
+
+
 
 @media screen and (max-width:660px){
     html{
