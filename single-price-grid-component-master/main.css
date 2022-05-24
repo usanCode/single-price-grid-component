@@ -11,6 +11,7 @@ body{
   
     width: 100%;
     margin: auto;
+    background-color: hsl(204, 43%, 93%) ;
 }
 
 .grid-container{
@@ -63,6 +64,7 @@ h2{
     color: hsl(218, 22%, 67%);
     font-weight: 400;
     font-family: Karla ;
+    padding-right: 3rem;
 
 }
 .secondContainer{
@@ -183,9 +185,10 @@ button{
     }
     
     body{
-        background-color:white ;
+        background-color: hsl(204, 43%, 93%) ;
         width: 100%;
         margin: auto;
+
     }
     
     .grid-container{
@@ -234,6 +237,7 @@ button{
         grid-row-start: 3;
         grid-row-end:4 ;
         padding-left: 1rem;
+        padding-bottom: 0.4rem;
     
     }
     .intro{
@@ -241,8 +245,9 @@ button{
         font-weight: 400;
         font-family: Karla ;
         font-size: 16px;
-        padding-right: 0.5rem;
+        padding-right: 1.3rem;
         line-height: 1.6rem;
+        
     
     }
     .secondContainer{
